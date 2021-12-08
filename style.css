@@ -1,0 +1,52 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+link{
+    text-decoration: none;
+}
+.rasm{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid grey;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.social a{
+    border: 2px solid grey;
+    width: 4rem;
+    height: 3rem;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+}
+p {
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    color: yellow;
+    width: 55%;
+}
+.linked{
+    height: 30px;
+    text-align: center;
+    margin: 300px;
+    color: snow;
+    width: 55%;
+}

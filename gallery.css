@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+    background-color:goldenrod;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    font-size: 35px;
+    color: snow;
+    font-family: 'Ubuntu';
+    margin: 20px;
+}
+.link:hover{
+    font-weight: bolder;
+    color: black;
+}
+.rasm{
+    width: 70%;
+    margin: 40px;
+}
+.booton{
+    border: 3px solid goldenrod;
+    color: snow;
+    text-decoration: none;
+}
+footer{
+    background-color: goldenrod;
+    height: 30px;
+    text-align: center;
+    margin-top: 100px;
+    color: snow;
+    font-size: 30px;
+    width: 100%;
+}
